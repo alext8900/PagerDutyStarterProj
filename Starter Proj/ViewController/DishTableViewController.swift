@@ -12,7 +12,6 @@ class DishTableViewController: UITableViewController {
     
     let dishController = DishController()
     var dish: Dish?
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +20,6 @@ class DishTableViewController: UITableViewController {
         
     }
     
-    //sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf
     
     @IBAction func saveTapped(_ sender: UIBarButtonItem) {
         let alertController = UIAlertController(title: "Add dish", message: "", preferredStyle: .alert)
